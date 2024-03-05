@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OrderEye Frontend Assignment</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+  </head>
+  <body>
+    <!-- Side Menu Bar -->
+    <section class="side-nav">
+      <div class="logo-container"><div class="brand-logo"></div></div>
+      <div class="side-nav-list">
+        <ul class="side-nav-list-parent">
+          <li>
+            <a href="#">
+              <div class="menu-heading">
+    
+              <i class="fa-solid fa-bag-shopping"></i>
+              Orders
+              </div>
+              </a
+            >
+          </li>
+          <li>
+            <a href="#"
+              >
+              <div class="menu-heading">
+               
+              <i class="fa-regular fa-user"></i>
+              Vendors</div></a
+            >
+          </li>
+          <li>
+            <a href="#">
+              <div class="menu-heading">
+               
+              <i class="fa-solid fa-calculator"></i>
+              Accounting
+              </div>
+              <i class="fa-solid fa-chevron-right"></i>
+            </a>
+          </li>
+          <ul class="side-nav-list-child">
+            <li><a href="#">Orders</a></li>
+            <li><a href="#">loyalty points</a></li>
+            <li><a href="#">Promo Codes</a></li>
+            <li><a href="#">Taxes</a></li>
+            <li><a href="#">Vendors</a></li>
+            <li><a href="#">Payout Requests</a></li>
+            <li><a href="#">Subscription Discount</a></li>
+          </ul>
+          <li>
+            <a href="#"
+              ><div class="menu-heading">
+                
+              <i class="fa-solid fa-user-plus"></i>
+              Subscriptions</div><i class="fa-solid fa-chevron-right"></i></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><div class="menu-heading">
+                
+              <i class="fa-solid fa-people-group"></i>
+              Customers</div></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><div class="menu-heading">
+                
+              <i class="fa-solid fa-chart-line"></i>
+              Reports</div><i class="fa-solid fa-chevron-right"></i></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><div class="menu-heading">
+                
+                <i class="fa-solid fa-people-group"></i>
+                Admin
+                Service Area</div></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><div class="menu-heading">      
+                <i class="fa-regular fa-comment-dots"></i>
+                Chat</div><i class="fa-solid fa-chevron-right"></i></a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="page-right">
+      <!-- Upper Menu Bar -->
+      <header class="upper-nav">
+        <a href="#" class="upper-nav-options toggle-button"><i class="fa-solid fa-toggle-off"></i></a>
+        <a href="#" class="upper-nav-options"
+          ><i class="fa-solid fa-globe"></i>View Website</a
+        >
+        <a href="#" class="upper-nav-options"
+          ><i class="fa-solid fa-globe"></i>Pickup & Delivery Dashboard</a
+        >
+        <a href="#" class="upper-nav-options"
+          ><i class="fa-solid fa-language"></i>Language en<i class="fa-solid fa-chevron-down" style="padding-left: 8px;"></i></a
+        >
+
+        <div id="uppernav-logo" class="brand-logo"></div>
+      </header>
+      <!-- Calculated summary section -->
+      <section class="calc-summary">
+        <div class="summary-value">
+          <div class="summary-value-upper">
+            <i
+              class="fa-solid fa-money-check-dollar"
+              style="color: rgb(54, 193, 224)"
+            ></i>
+            <p>508577.15</p>
+          </div>
+          <p>Total Order Value</p>
+        </div>
+        <div class="summary-value">
+          <div class="summary-value-upper">
+            <i
+              class="fa-solid fa-money-check-dollar"
+              style="color: rgb(65, 182, 151)"
+            ></i>
+            <p>296816.73</p>
+          </div>
+          <p>Total Delivery Fees</p>
+        </div>
+        <div class="summary-value">
+          <div class="summary-value-upper">
+            <i
+              class="fa-solid fa-money-check-dollar"
+              style="color: rgb(65, 182, 151)"
+            ></i>
+            <p>17473.92</p>
+          </div>
+          <p>Total Admin Commissions</p>
+        </div>
+      </section>
+
+      <!-- Data section -->
+      <section class="data-section">
+        <div class="data-section-upper">
+          <div class="data-section-upper-left">
+            <input type="text" name="dates" class="inputbox data-section-elements" />
+            <i
+              class="fa-solid fa-square-xmark"
+              style="
+                font-size: 40px;
+                color: rgb(236, 108, 108);
+                margin-left: 20px;
+                cursor: pointer;
+              "
+            ></i>
+          </div>
+
+          <div class="data-section-upper-right">
+            <button class="data-section-elements export-buttons">
+              <div class="export-button-icon-box">
+                <i
+                  class="fa-solid fa-file-csv"
+                  style="font-size: 15px; padding: 8px"
+                ></i>
+              </div>
+              <p class="export-button-text">Export CSV</p></button
+            ><button class="data-section-elements export-buttons">
+              <div class="export-button-icon-box">
+                <i
+                  class="fa-solid fa-file-pdf"
+                  style="font-size: 15px; padding: 8px"
+                ></i>
+              </div>
+              <p class="export-button-text">Export PDF</p></button
+            >
+            <input type="text" class="data-section-elements inputbox search-input" placeholder="Search By Vendor Name">
+            </input>
+          </div>
+        </div>
+        
+        <!-- Table -->
+      <table id="data-table">
+        <thead>
+          <tr>
+            <th>Vendor Name</th>
+            <th>Order Value</th>
+            <th>Delivery Fees</th>
+            <th>Admin Commissions</th>
+            <th>Promo [Vendor]</th>
+            <th>Promo [Admin]</th>
+            <th>Service Fee</th>
+            <th>Fixed Fee</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- data rendering from backend -->
+        </tbody>
+      </table>
+      </section>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

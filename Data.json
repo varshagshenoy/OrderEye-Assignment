@@ -1,0 +1,92 @@
+[
+    {
+        "Vendor Name": "Himanshu",
+        "Order Value": 0.00,
+        "Delivery Fees": 0.00,
+        "Admin Commissions": 0.00,
+        "Promo [Vendor]": 0.00,
+        "Promo [Admin]": 0.00,
+        "Service Fee": 0.00,
+        "Fixed Fee": 0.00
+    },
+    {
+        "Vendor Name": "Himanshu",
+        "Order Value": 0.00,
+        "Delivery Fees": 0.00,
+        "Admin Commissions": 0.00,
+        "Promo [Vendor]": 0.00,
+        "Promo [Admin]": 0.00,
+        "Service Fee": 0.00,
+        "Fixed Fee": 0.00
+    },
+    {
+        "Vendor Name": "foods",
+        "Order Value": 0.00,
+        "Delivery Fees": 0.00,
+        "Admin Commissions": 0.00,
+        "Promo [Vendor]": 0.00,
+        "Promo [Admin]": 0.00,
+        "Service Fee": 0.00,
+        "Fixed Fee": 0.00
+    },
+    {
+        "Vendor Name": "Tests food",
+        "Order Value": 0.00,
+        "Delivery Fees": 0.00,
+        "Admin Commissions": 0.00,
+        "Promo [Vendor]": 0.00,
+        "Promo [Admin]": 0.00,
+        "Service Fee": 0.00,
+        "Fixed Fee": 0.00
+    },
+    {
+        "Vendor Name": "Casa Vera",
+        "Order Value": 0.00,
+        "Delivery Fees": 0.00,
+        "Admin Commissions": 0.00,
+        "Promo [Vendor]": 0.00,
+        "Promo [Admin]": 0.00,
+        "Service Fee": 0.00,
+        "Fixed Fee": 0.00
+    },
+    {
+        "Vendor Name": "7 Cheese Pizza",
+        "Order Value": 39496.32,
+        "Delivery Fees": 42024.85,
+        "Admin Commissions": 271.00,
+        "Promo [Vendor]": 0.00,
+        "Promo [Admin]": 5403.85,
+        "Service Fee": 21.00,
+        "Fixed Fee": 0.00
+    },
+    {
+        "Vendor Name": "Downtown",
+        "Order Value": 38000.06,
+        "Delivery Fees": 22426.70,
+        "Admin Commissions": 159.00,
+        "Promo [Vendor]": 0.00,
+        "Promo [Admin]": 100.00,
+        "Service Fee": 0.00,
+        "Fixed Fee": 0.00
+    },
+    {
+        "Vendor Name": "The Golden Spoon",
+        "Order Value": 73425.88,
+        "Delivery Fees": 43356.75,
+        "Admin Commissions": 295.68,
+        "Promo [Vendor]": 3.86,
+        "Promo [Admin]": 173.29,
+        "Service Fee": 905.50,
+        "Fixed Fee": 0.00
+    },
+    {
+        "Vendor Name": "D-Mart",
+        "Order Value": 35257.60,
+        "Delivery Fees": 30332.00,
+        "Admin Commissions": 51.60,
+        "Promo [Vendor]": 0.00,
+        "Promo [Admin]": 279.41,
+        "Service Fee": 276.80,
+        "Fixed Fee": 0.00
+    }
+]
